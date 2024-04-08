@@ -1,10 +1,4 @@
-## DeepFake Detection (DFDC) Solution by @rzzdr
-
-## Challenge details:
-
-[Kaggle Challenge Page](https://www.kaggle.com/c/deepfake-detection-challenge)
-
-
+## DeepFake Detector by @rzzdr
 ### Fake detection articles  
 - [The Deepfake Detection Challenge (DFDC) Preview Dataset](https://arxiv.org/abs/1910.08854)
 - [Deep Fake Image Detection Based on Pairwise Learning](https://www.mdpi.com/2076-3417/10/1/370)
