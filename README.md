@@ -50,7 +50,7 @@ def confident_strategy(pred, t=0.8):
 
 I used heavy augmentations by default. 
 [Albumentations](https://github.com/albumentations-team/albumentations) library supports most of the augmentations out of the box. Only needed to add IsotropicResize augmentation.
-```
+```python
 
 def create_train_transforms(size=300):
     return Compose([
