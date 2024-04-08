@@ -1,15 +1,5 @@
 ## DeepFake Detector by @rzzdr
-### Fake detection articles  
-- [The Deepfake Detection Challenge (DFDC) Preview Dataset](https://arxiv.org/abs/1910.08854)
-- [Deep Fake Image Detection Based on Pairwise Learning](https://www.mdpi.com/2076-3417/10/1/370)
-- [DeeperForensics-1.0: A Large-Scale Dataset for Real-World Face Forgery Detection](https://arxiv.org/abs/2001.03024)
-- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179)
-- [Real or Fake? Spoofing State-Of-The-Art Face Synthesis Detection Systems](https://arxiv.org/abs/1911.05351)
-- [CNN-generated images are surprisingly easy to spot... for now](https://arxiv.org/abs/1912.11035)
-- [FakeSpotter: A Simple yet Robust Baseline for Spotting AI-Synthesized Fake Faces](https://arxiv.org/abs/1909.06122)
-- [FakeLocator: Robust Localization of GAN-Based Face Manipulations via Semantic Segmentation Networks with Bells and Whistles](https://arxiv.org/abs/2001.09598)
-- [Media Forensics and DeepFakes: an overview](https://arxiv.org/abs/2001.06564)
-- [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
+
 
 ## Solution description 
 In general solution is based on frame-by-frame classification approach. Other complex things did not work so well on public leaderboard.
@@ -159,6 +149,17 @@ Ensemble inference is already preconfigured with `predict_submission.sh` bash sc
  
 For example `./predict_submission.sh /mnt/datasets/deepfake/test_videos submission.csv`  
 
+### Fake detection articles  
+- [The Deepfake Detection Challenge (DFDC) Preview Dataset](https://arxiv.org/abs/1910.08854)
+- [Deep Fake Image Detection Based on Pairwise Learning](https://www.mdpi.com/2076-3417/10/1/370)
+- [DeeperForensics-1.0: A Large-Scale Dataset for Real-World Face Forgery Detection](https://arxiv.org/abs/2001.03024)
+- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179)
+- [Real or Fake? Spoofing State-Of-The-Art Face Synthesis Detection Systems](https://arxiv.org/abs/1911.05351)
+- [CNN-generated images are surprisingly easy to spot... for now](https://arxiv.org/abs/1912.11035)
+- [FakeSpotter: A Simple yet Robust Baseline for Spotting AI-Synthesized Fake Faces](https://arxiv.org/abs/1909.06122)
+- [FakeLocator: Robust Localization of GAN-Based Face Manipulations via Semantic Segmentation Networks with Bells and Whistles](https://arxiv.org/abs/2001.09598)
+- [Media Forensics and DeepFakes: an overview](https://arxiv.org/abs/2001.06564)
+- [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
 
 
 
