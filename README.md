@@ -72,7 +72,7 @@ def create_train_transforms(size=300):
 ``` 
 In addition to these augmentations I wanted to achieve better generalization with 
 - Cutout like augmentations (dropping artefacts and parts of face)
-- Dropout part of the image, inspired by [GridMask](https://arxiv.org/abs/2001.04086) and [Severstal Winning Solution](https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114254) 
+- Dropout part of the image, inspired by [GridMask](https://arxiv.org/abs/2001.04086) 
 
 ![augmentations](images/augmentations.jpg "Dropout augmentations")
 
@@ -122,7 +122,7 @@ Training 5 B7 models with different seeds is done in **`train.sh`** script.
 During training checkpoints are saved for every epoch.
 
 ## Hardware requirements
-Mostly trained on devbox configuration with 4xTitan V, thanks to Nvidia and DSB2018 competition where I got these gpus https://www.kaggle.com/c/data-science-bowl-2018/
+Mostly trained on devbox configuration with 4xTitan V
  
 Overall training requires 4 GPUs with 12gb+ memory. 
 Batch size needs to be adjusted for standard 1080Ti or 2080Ti graphic cards.
