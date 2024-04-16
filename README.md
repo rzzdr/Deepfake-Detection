@@ -162,5 +162,5 @@ For example `./predict_submission.sh /mnt/datasets/deepfake/test_videos submissi
 - [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
 
 
-
-
+## Credits and Acknowledgments
+This project is a guided project insipired by the [DeepFake Detection (DFDC) Solution by @selimsef](https://github.com/selimsef/dfdc_deepfake_challenge).
