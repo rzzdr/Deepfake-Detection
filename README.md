@@ -2,7 +2,7 @@
 
 ![Title](Deepfake.png)
 ## Solution description 
-In general solution is based on frame-by-frame classification approach. Other complex things did not work so well on public leaderboard.
+Generative adversarial networks (GANs) can be used to generate a photo-realistic image from a low-dimension random noise. Such a synthesized (fake) image with inappropriate content can be used on social media networks, which can cause severe problems. With the aim to successfully detect fake images, an effective and efficient image forgery detector is necessary. So, I present a DeepFake Detection Model.
 
 #### Face-Detector
 MTCNN detector is chosen due to kernel time limits. It would be better to use S3FD detector as more precise and robust, but opensource Pytorch implementations don't have a license. 
