@@ -1,6 +1,6 @@
 ## DeepFake Detector by @rzzdr
 
-
+![Title](Deepfake.png)
 ## Solution description 
 In general solution is based on frame-by-frame classification approach. Other complex things did not work so well on public leaderboard.
 
