@@ -125,7 +125,7 @@ During training checkpoints are saved for every epoch.
 Mostly trained on devbox configuration with 4xTitan V
  
 Overall training requires 4 GPUs with 12gb+ memory. 
-Batch size needs to be adjusted for standard 1080Ti or 2080Ti graphic cards.
+Batch size needs to be adjusted for standard 3080 or 4080 graphic cards.
 
 As I computed fake loss and real loss separately inside each batch, results might be better with larger batch size, for example on V100 gpus. 
 Even though SyncBN is used larger batch on each GPU will lead to less noise as DFDC dataset has some fakes where face detector failed and face crops are not really fakes.   
